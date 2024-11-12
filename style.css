@@ -11,11 +11,13 @@ body, p {
 /* Kommentar: Bakgrundsfärg för Tabell 1 */
 .tabell1 {
     background-color: #ffcccc;
+    border: 1px solid black; /* Lägger till en tunn svart kant */
 }
 
 /* Kommentar: Bakgrundsfärg för Tabell 2 */
 .tabell2 {
     background-color: #ffcc99;
+    border: 1px solid black; /* Lägger till en tunn svart kant */
 }
 
 /* Kommentar: Färg på texten längst ner */
