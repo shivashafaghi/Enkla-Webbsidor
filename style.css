@@ -40,3 +40,9 @@ a:hover {
     background-color: #000000; /* Svart bakgrund */
     color: #ffffff; /* Vit text */
 }
+
+/* Kommentar: Justering för första cellen i Tabell 2 */
+.tabell2 td:first-child {
+    text-align: center; /* Centrerar texten i första cellen */
+    border-bottom: 1px solid black; /* Lägger till en linje under första cellen */
+}
