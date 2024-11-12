@@ -20,6 +20,12 @@ body, p {
     border: 1px solid black; /* Lägger till en tunn svart kant */
 }
 
+/* Kommentar: Tabellrubriker */
+.tabell1 caption, .tabell2 caption {
+    font-weight: bold; /* Gör rubriken fetstil */
+    text-align: left; /* Justerar rubriken till vänster */
+}
+
 /* Kommentar: Färg på texten längst ner */
 #source {
     color: #009900;
@@ -45,4 +51,14 @@ a:hover {
 .tabell2 td:first-child {
     text-align: center; /* Centrerar texten i första cellen */
     border-bottom: 1px solid black; /* Lägger till en linje under första cellen */
+}
+
+/* Kommentar: Lägger till en linje endast under "Studenter" och "17 000" */
+.tabell2 tbody tr:first-child td {
+    border-bottom: 1px solid black; /* En linje under den första raden */
+}
+
+/* Kommentar: Justering av text i Tabell 1 och Tabell 2 */
+.tabell1 td, .tabell2 td {
+    text-align: left; /* Justerar texten till vänster för alla celler */
 }
