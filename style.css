@@ -32,4 +32,11 @@ body, p {
 /* Kommentar: Länkfärg när muspekaren är över länken */
 a:hover {
     color: #ffffff; /* Ändrar textfärg vid hover */
-    backg
+    background-color: #ffcc99; /* Ändrar bakgrundsfärg vid hover */
+}
+
+/* Kommentar: Stilar för den sista raden i Tabell 2 */
+.tabell2 tfoot tr {
+    background-color: #000000; /* Svart bakgrund */
+    color: #ffffff; /* Vit text */
+}
