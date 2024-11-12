@@ -23,10 +23,13 @@ body, p {
 /* Kommentar: Färg på texten längst ner */
 #source {
     color: #009900;
+    position: fixed; /* Fäster texten på en fast position */
+    bottom: 10px; /* Avstånd från botten */
+    right: 10px; /* Avstånd från höger */
+    font-size: 14px; /* Justera storlek på texten */
 }
 
 /* Kommentar: Länkfärg när muspekaren är över länken */
 a:hover {
     color: #ffffff; /* Ändrar textfärg vid hover */
-    background-color: #ffcc99; /* Ändrar bakgrundsfärg vid hover */
-}
+    backg
