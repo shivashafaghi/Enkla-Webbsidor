@@ -55,12 +55,12 @@ a:hover {
     text-align: left; /* Justerar texten till vänster för all text */
 }
 
-/* Kommentar: Justering för tal i Tabell 2 (högra kolumnen) */
-.tabell2 td:nth-child(2), .tabell2 th:nth-child(2) {
-    text-align: right; /* Justerar alla tal till höger */
+/* Kommentar: Justering för första kolumnen i Tabell 2 */
+.tabell2 th:first-child {
+    text-align: left; /* Justerar rubriken "Studenter" till vänster */
 }
 
 /* Kommentar: Lägger till en linje endast under "Studenter" och "17 000" */
 .tabell2 thead tr th {
-    border-bottom: 1px solid black; /* Linje under första raden */
+    border-bottom: 1px solid black; /* Linje under rubriken "Studenter" */
 }
