@@ -41,24 +41,18 @@ a:hover {
     background-color: #ffcc99; /* Ändrar bakgrundsfärg vid hover */
 }
 
-/* Kommentar: Stilar för den sista raden i Tabell 2 */
-.tabell2 tfoot tr {
-    background-color: #000000; /* Svart bakgrund */
-    color: #ffffff; /* Vit text */
-}
-
-/* Kommentar: Justering för första cellen i Tabell 2 */
-.tabell2 td:first-child {
-    text-align: center; /* Centrerar texten i första cellen */
-    border-bottom: 1px solid black; /* Lägger till en linje under första cellen */
-}
-
-/* Kommentar: Lägger till en linje endast under "Studenter" och "17 000" */
-.tabell2 tbody tr:first-child td {
-    border-bottom: 1px solid black; /* En linje under den första raden */
-}
-
-/* Kommentar: Justering av text i Tabell 1 och Tabell 2 */
-.tabell1 td, .tabell2 td {
+/* Kommentar: Tar bort alla linjer i Tabell 2 */
+.tabell2 td {
+    border-bottom: none; /* Tar bort alla underlinjer */
     text-align: left; /* Justerar texten till vänster för alla celler */
+}
+
+/* Kommentar: En linje endast under "Studenter" och "17 000" */
+.tabell2 tbody tr:first-child td {
+    border-bottom: 1px solid black; /* En linje under första raden */
+}
+
+/* Kommentar: Justerar siffror till höger */
+.tabell2 td:last-child {
+    text-align: right; /* Justerar siffror till höger */
 }
