@@ -18,24 +18,26 @@
         <input type="tel" id="telefon" name="telefon" required><br><br>
 
         <!-- Prioritet -->
-        <label for="prioritet">Prioritet:</label>
+        <label for="prioritet">Prioritet:</label><br>
         <select id="prioritet" name="prioritet" required>
             <option value="1">Låg</option>
             <option value="2">Normal</option>
             <option value="3">Hög</option>
         </select><br><br>
 
-        <!-- Tilldela till ort -->
-        <label for="ort">Tilldela till ort:</label>
-        <select id="ort" name="ort" required>
-            <option value="gbg">Göteborg</option>
-            <option value="sthlm">Stockholm</option>
-            <option value="ume">Umeå</option>
-            <option value="lule">Luleå</option>
-        </select><br><br>
+        <!-- Tilldela till ort (multiple choice checkboxes) -->
+        <label for="ort">Tilldela till ort:</label><br>
+        <input type="checkbox" id="gbg" name="ort" value="gbg">
+        <label for="gbg">Göteborg</label><br>
+        <input type="checkbox" id="sthlm" name="ort" value="sthlm">
+        <label for="sthlm">Stockholm</label><br>
+        <input type="checkbox" id="ume" name="ort" value="ume">
+        <label for="ume">Umeå</label><br>
+        <input type="checkbox" id="lule" name="ort" value="lule">
+        <label for="lule">Luleå</label><br><br>
 
-        <!-- Kategorin -->
-        <label for="kategori">Kategorin:</label>
+        <!-- Kategori -->
+        <label for="kategori">Kategorin:</label><br>
         <select id="kategori" name="kategori" required>
             <option value="fakt">Fakturering</option>
             <option value="net">Internet</option>
