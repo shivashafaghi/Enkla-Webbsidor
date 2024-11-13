@@ -56,8 +56,8 @@ a:hover {
 }
 
 /* Kommentar: Justering för tal i Tabell 2 (högra kolumnen) */
-.tabell2 td:nth-child(2) {
-    text-align: right; /* Justerar siffror till höger */
+.tabell2 td:nth-child(2), .tabell2 th:nth-child(2) {
+    text-align: right; /* Justerar alla tal till höger */
 }
 
 /* Kommentar: Lägger till en linje endast under "Studenter" och "17 000" */
