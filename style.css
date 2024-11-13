@@ -56,3 +56,10 @@ a:hover {
 .tabell2 td:last-child {
     text-align: right; /* Justerar siffror till höger */
 }
+
+/* Kommentar: Stilar för den sista raden i Tabell 2 */
+.tabell2 tfoot tr {
+    background-color: #000000; /* Svart bakgrund */
+    color: #ffffff; /* Vit text */
+    font-style: italic; /* Gör texten kursiv */
+}
