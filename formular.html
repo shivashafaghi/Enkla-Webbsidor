@@ -10,11 +10,11 @@
     <h1>Supportformulär</h1>
     <form action="https://swplayground.ltu.se/resources/parse_form.php" method="POST">
         <!-- Ditt namn -->
-        <label for="namn">Ditt namn:</label>
+        <label for="namn">Ditt namn:</label><br>
         <input type="text" id="namn" name="namn" required><br><br>
 
         <!-- Telefon -->
-        <label for="telefon">Telefon:</label>
+        <label for="telefon">Telefon:</label><br>
         <input type="tel" id="telefon" name="telefon" required><br><br>
 
         <!-- Prioritet -->
@@ -25,15 +25,15 @@
             <option value="3">Hög</option>
         </select><br><br>
 
-        <!-- Tilldela till ort (multiple choice checkboxes) -->
+        <!-- Tilldela till ort (radio buttons) -->
         <label for="ort">Tilldela till ort:</label><br>
-        <input type="checkbox" id="gbg" name="ort" value="gbg">
+        <input type="radio" id="gbg" name="ort" value="gbg">
         <label for="gbg">Göteborg</label><br>
-        <input type="checkbox" id="sthlm" name="ort" value="sthlm">
+        <input type="radio" id="sthlm" name="ort" value="sthlm">
         <label for="sthlm">Stockholm</label><br>
-        <input type="checkbox" id="ume" name="ort" value="ume">
+        <input type="radio" id="ume" name="ort" value="ume">
         <label for="ume">Umeå</label><br>
-        <input type="checkbox" id="lule" name="ort" value="lule">
+        <input type="radio" id="lule" name="ort" value="lule">
         <label for="lule">Luleå</label><br><br>
 
         <!-- Kategori -->
@@ -46,7 +46,7 @@
         </select><br><br>
 
         <!-- Rubrik -->
-        <label for="rubrik">Rubrik:</label>
+        <label for="rubrik">Rubrik:</label><br>
         <input type="text" id="rubrik" name="rubrik" required><br><br>
 
         <!-- Beskrivning -->
