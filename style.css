@@ -1,33 +1,33 @@
-/* Kommentar: Stilmallar för rubriker */
+/* Stilmallar för rubriker */
 h1, h2, h3, h4, h5, h6 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Kommentar: Stilmall för övrig text */
+/* Stilmall för övrig text */
 body, p {
     font-family: Candara, Verdana, sans-serif;
 }
 
-/* Kommentar: Bakgrundsfärg för Tabell 1 */
+/* Bakgrundsfärg för Tabell 1 */
 .tabell1 {
     background-color: #ffcccc;
     border: 1px solid black; /* Tunn svart kant runt tabellen */
 }
 
-/* Kommentar: Bakgrundsfärg för Tabell 2 */
+/* Bakgrundsfärg för Tabell 2 */
 .tabell2 {
     background-color: #ffcc99;
     border: 1px solid black; /* Tunn svart kant runt tabellen */
 }
 
-/* Kommentar: Tabellrubriker */
+/* Tabellrubriker */
 .tabell1 caption, .tabell2 caption {
     font-weight: bold; /* Gör rubriken fetstil */
     text-align: left; /* Justerar rubriken till vänster */
     margin-bottom: 5px; /* Lägger till lite utrymme under rubriken */
 }
 
-/* Kommentar: Färg på texten längst ner */
+/* Färg på texten längst ner */
 #source {
     color: #009900;
     position: fixed; /* Fäster texten på en fast position */
@@ -36,13 +36,13 @@ body, p {
     font-size: 14px; /* Justera storlek på texten */
 }
 
-/* Kommentar: Länkfärg när muspekaren är över länken */
+/* Länkfärg när muspekaren är över länken */
 a:hover {
     color: #ffffff; /* Ändrar textfärg vid hover */
     background-color: #ffcc99; /* Ändrar bakgrundsfärg vid hover */
 }
 
-/* Kommentar: Stilar för den sista raden i Tabell 2 */
+/* Stilar för den sista raden i Tabell 2 */
 .tabell2 tfoot tr.foot {
     background-color: #000000; /* Svart bakgrund */
     color: #ffffff; /* Vit text */
@@ -50,17 +50,17 @@ a:hover {
     text-align: left; /* Justerar texten till vänster */
 }
 
-/* Kommentar: Justering av text i Tabell 1 och Tabell 2 */
+/* Justering av text i Tabell 1 och Tabell 2 */
 .tabell1 td, .tabell2 td {
     text-align: left; /* Justerar texten till vänster för all text */
 }
 
-/* Kommentar: Justering för första kolumnen i Tabell 2 */
+/* Justering för första kolumnen i Tabell 2 */
 .tabell2 th:first-child {
     text-align: left; /* Justerar rubriken "Studenter" till vänster */
 }
 
-/* Kommentar: Lägger till en linje endast under "Studenter" och "17 000" */
+/* Lägger till en linje endast under "Studenter" och "17 000" */
 .tabell2 thead tr th {
     border-bottom: 1px solid black; /* Linje under rubriken "Studenter" */
 }
