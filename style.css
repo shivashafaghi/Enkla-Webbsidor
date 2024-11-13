@@ -24,6 +24,7 @@ body, p {
 .tabell1 caption, .tabell2 caption {
     font-weight: bold; /* Gör rubriken fetstil */
     text-align: left; /* Justerar rubriken till vänster */
+    margin-bottom: 5px; /* Lägger till avstånd under rubriken */
 }
 
 /* Kommentar: Färg på texten längst ner */
@@ -41,25 +42,25 @@ a:hover {
     background-color: #ffcc99; /* Ändrar bakgrundsfärg vid hover */
 }
 
-/* Kommentar: Tar bort alla linjer i Tabell 2 */
-.tabell2 td {
-    border-bottom: none; /* Tar bort alla underlinjer */
-    text-align: left; /* Justerar texten till vänster för alla celler */
-}
-
-/* Kommentar: En linje endast under "Studenter" och "17 000" */
-.tabell2 tbody tr:first-child td {
-    border-bottom: 1px solid black; /* En linje under första raden */
-}
-
-/* Kommentar: Justerar siffror till höger */
-.tabell2 td:last-child {
-    text-align: right; /* Justerar siffror till höger */
-}
-
 /* Kommentar: Stilar för den sista raden i Tabell 2 */
 .tabell2 tfoot tr {
     background-color: #000000; /* Svart bakgrund */
     color: #ffffff; /* Vit text */
     font-style: italic; /* Gör texten kursiv */
+}
+
+/* Kommentar: Justering för text i Tabell 1 och Tabell 2 */
+.tabell1 td, .tabell2 td {
+    text-align: left; /* Justerar texten till vänster */
+    padding: 5px; /* Lägger till utrymme runt texten */
+}
+
+/* Kommentar: Lägger till en linje endast under "Studenter" och "17 000" */
+.tabell2 tbody tr:first-child td {
+    border-bottom: 1px solid black; /* En linje under den första raden */
+    text-align: left; /* Justerar text till vänster i första kolumnen */
+}
+
+.tabell2 tbody tr:first-child td:last-child {
+    text-align: right; /* Justerar nummer till höger i sista kolumnen */
 }
